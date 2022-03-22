@@ -1,0 +1,25 @@
+.main-nav {
+    height: 3em;
+    background-color: #eee;
+  }
+
+  .main-nav a {
+    color: #4b8568;
+  }
+
+  .main-nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .main-nav li {
+    padding: 1em;
+  }
+
+  .main-nav .active {
+    background-color: #4b8568;
+  }
+
+  .main-nav .active a {
+    color: #eee;            
+  }
