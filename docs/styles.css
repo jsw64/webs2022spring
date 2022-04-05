@@ -1,93 +1,56 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-	height: 100vh;
-}
-a {
-	font-size: 16px;
-}
-.main-nav {
-	background: #3E4052;
-}
-.main-nav:after {
-	content: '';
-	clear: both;
-	display: block;
-}
-.main-nav ul {
-	list-style: none;
-	margin: 0;
-}
-.main-nav>ul>li {
-	float: left;
-	position: relative;
-}
-.main-nav ul li a {
-	text-decoration: none;
-	color: #FFFFFF;
-	padding: 25px 80px;
-	display: block;
-}
-.main-nav ul li:hover a {
-	background: #3F50FE;
-}
-.main-nav ul ul {
-	position: absolute;
-	padding: 0;
-	min-width: 120px; 
-	display: none;
-	top: 100%;
-	left: 0;
-}
-.main-nav ul li:hover>ul {
-	display: block;
-}
-.main-nav ul ul li:hover a {
-	background: #3E4052;
-}
-.main-nav ul ul li {
-	position: relative;
+  background: rgb(69, 69, 69);
 }
 
-.main-nav ul ul ul {
-	top: 0;
-	left: 100%;
-}
-.main-nav ul ul ul li:hover a {
-	background: #3F50FE;
-}
-
-.home-div {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.card-img {
-	width: 100%
-}
-
-.centertxt {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.photo-grid-container {
-  display: flex;
-  justify-content: center;
-}
-
-.photo-grid {
-  width: 2000px;
+.product-grid-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.photo-grid-item {
-  border: 1px solid #fff;
+.product {
+  background: white;
+  width: 240px;
+  margin: 10px;
+  border-radius: 15px;
 }
-	
+
+.product-grid-image {
+  height: 180px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.product h2, p {
+  padding: 12px;
+}
+
+.product p {
+  font-size: 1.25em;
+}
+
+
+.product a {
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+  display: block;
+  text-align: center;
+  margin: 18px 20px;
+  text-decoration: none;
+}
+
+.product:hover {
+  background-color: rgb(69, 69, 69);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
