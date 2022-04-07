@@ -22,3 +22,4 @@ Logitech Headphones (logitechheadphones.jpg) | https://c1.neweggimages.com/Produ
 Apple MacBook Pro (applelaptop.jpg) | https://c1.neweggimages.com/ProductImageCompressAll1280/AJ3AD2106021TBR2.jpg | Fair Use: The purpose and character of the use is for nonprofit educational purposes.
 Apple iPad Pro (appletablet.jpg) | https://c1.neweggimages.com/ProductImageCompressAll1280/58-752-634-S04.jpg | Fair Use: The purpose and character of the use is for nonprofit educational purposes.
 Apple AirPods Pro (appleheadphones.jpg) | https://c1.neweggimages.com/ProductImageCompressAll1280/ABMTD2201311A2OHJC5.jpg | Fair Use: The purpose and character of the use is for nonprofit educational purposes.
+Google Font Kanit | https://fonts.google.com/specimen/Kanit | Open Font License (https://fonts.google.com/specimen/Kanit#license)
