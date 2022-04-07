@@ -4,8 +4,15 @@
   margin: 0;
 }
 
+.subtitle {
+  font-size: 1em;
+  padding: 15px 0 8px 116px;
+}
+
 body {
-  background: rgb(69, 69, 69);
+  margin: 0;
+	padding: 0;
+	font-family: sans-serif;
 }
 
 .product-grid-container {
@@ -15,17 +22,17 @@ body {
 }
 
 .product {
-  background: white;
+  background: #f2f2f2;
   width: 240px;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .product-grid-image {
   height: 180px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   background-size: cover;
-  border-radius: 15px 15px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .product h2, p {
@@ -39,7 +46,7 @@ body {
 
 .product a {
   background-color: black;
-  color: white;
+  color: #ffffff;
   padding: 15px 15px;
   display: block;
   text-align: center;
@@ -48,9 +55,73 @@ body {
 }
 
 .product:hover {
-  background-color: rgb(69, 69, 69);
-  color: white;
+  background-color: #d3e4ff;
+  color: black;
   cursor: pointer;
   transform: scale(1.05);
   transition: all 0.5s ease;
+  text-decoration: underline;
+}
+
+.header {
+	margin: 0 auto;
+}
+
+.main-nav {
+	background: #14068c;
+	height: 80px;
+}
+.home {
+	padding: 0 0 0 60px;
+	height: 80px;
+}
+
+.main-nav ul {
+	padding: 0;
+	margin: 0;
+	margin-right: 60px;
+	float: right;
+}
+
+.main-nav ul li {
+	background: #14068c;
+	position: relative;
+	display: inline-block;
+	list-style: none;
+}
+
+.main-nav ul li a {
+	color: #ffffff;
+	line-height: 80px;
+	padding: 0 30px;
+	font-size: 18px;
+	display: block;
+	text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+	background: #2612c6;
+}
+
+.main-nav ul ul {
+	top: 80px;
+	position: absolute;
+	display: none;
+}
+
+.main-nav ul li:hover > ul {
+	display: block;
+}
+
+.main-nav ul ul li {
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+.main-nav ul ul ul li {
+	top: -80px;
+	left: 150px;
+	position: relative;
 }
