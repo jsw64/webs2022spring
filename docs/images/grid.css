@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(69, 69, 69);
+}
+
+.product-grid-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  background: white;
+  width: 240px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.product-grid-image {
+  height: 180px;
+  margin-bottom: 10px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.product h2, p {
+  padding: 12px;
+}
+
+.product p {
+  font-size: 1.25em;
+}
+
+
+.product a {
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+  display: block;
+  text-align: center;
+  margin: 18px 20px;
+  text-decoration: none;
+}
+
+.product:hover {
+  background-color: rgb(69, 69, 69);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}

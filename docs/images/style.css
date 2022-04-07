@@ -10,8 +10,6 @@ body {
 	font-family: sans-serif;
 }
 
-
-
 .header {
 	margin: 0 auto;
 }
@@ -138,24 +136,24 @@ body {
 }
 
 .slide-container .slider .slide.slide1 {
-	background: url(images/main.jpg);
+	background: url(main.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .slide-container .slider .slide.slide2 {
-	background: url(images/office.jpg);
+	background: url(office.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .slide-container .slider .slide.slide3 {
-	background: url(images/lenovothinkpad.jpg);
+	background: url(lenovothinkpad.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .slide-container .slider .slide.slide4 {
-	background: url(images/rtx3070ti.jpg);
+	background: url(rtx3070ti.jpg);
 	background-size: cover;
 	background-position: center;
 }
