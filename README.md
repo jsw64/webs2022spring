@@ -1,3 +1,8 @@
+# Welcome to OldEgg Electronics Online Store!
+
+For my web project, I thought it would be fun to create a website that mimics an online store. I decided specifically on a computer/electronics store, and named it "OldEgg" as to parody the famous online retailer Newegg. I designed my store to sell products such as CPUs, laptops, desktops, monitors, tablets, and other computer accessories. Unfortunately, the selection is pretty limited because listing more products was very tedious and the main point of the project was to build a functional site. I unfortunately was not able to get the "Add to Card" function and individual product page listings working how I wanted it to, but maybe I will expand on that in the future.
+
+
 # Project 3: Website Portfolio
 
 Your task in this unit is to **build a multi-page website using basic html and css files** — as opposed to a site manager like WordPress or Wix — **along with any media assets you wish to embed.** (Any JavaScript or animation you want to add for interactivity is welcome, but above and beyond expectations.) In assigning this, I have two main goals for you:
