@@ -10,7 +10,15 @@ body {
 	padding: 0;
 }
 
-
+.product-img {
+  height: 500px;
+  vertical-align: middle;
+  margin-left: 100px;
+}
+.product-text {
+  display: inline;
+  font-size: 3em;
+}
 
 .header {
 	margin: 0 auto;
